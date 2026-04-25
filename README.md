@@ -1,5 +1,7 @@
 # AI-Document-Assistant
 
+We leverage the Retrieval Augmented Generation (RAG) methodology to create a user-centric and intelligent system that enhances information retrieval from PDF documents through natural language queries.
+
 Input: RAG takes multiple pdf as input.
 VectoreStore: The pdf's are then converted to vectorstore using FAISS and all-MiniLM-L6-v2 Embeddings model from Hugging Face.
 Memory: Conversation buffer memory is used to maintain a track of previous conversation which are fed to the llm model along with the user query.
